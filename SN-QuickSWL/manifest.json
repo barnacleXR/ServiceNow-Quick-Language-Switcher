@@ -1,0 +1,48 @@
+{
+    "manifest_version": 3,
+    "name": "ServiceNow QSL",
+    "version": "1.0",
+    "description": "Extension to Quick Switch Language, providing a seamless way to toggle between installed languages.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icon/translated-text-fill.png",
+      "24": "icon/translated-text-fill.png",
+      "32": "icon/translated-text-fill.png",
+      "48": "icon/translated-text-fill.png",
+      "128": "icon/translated-text-fill.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+            "https://*.service-now.com/*",
+            "https://*.servicenow.com/*"
+        ],
+        "js": [
+            "content-script.js"
+        ],
+        "css": [
+            "custom-modal.css"
+        ]
+      }
+    ],
+    "permissions": [
+         "activeTab",
+    "declarativeContent",
+    "storage",
+    "contextMenus",
+    "cookies",
+    "sidePanel",
+    "webNavigation",
+    "scripting",
+    "tabs"
+    ],
+    "host_permissions": [
+        "https://*.service-now.com/*",
+        "https://*.servicenow.com/*"
+    ]
+  }

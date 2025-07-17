@@ -1,0 +1,15 @@
+<svg id="icon_i18n_final" width="128" height="128" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- The transform attribute is updated to scale the icon by an additional 10% (1.1 * 1.1 = 1.21) and re-center it. -->
+                        <g transform="scale(1.21) translate(-26.88, -26.88)">
+                            <rect width="256" height="256" rx="56" fill="#f8f9fa"></rect>
+                            <!-- Secondary Element: Bubbles redrawn and widened -->
+                            <path d="M88 156H128C136.837 156 144 163.163 144 172V180C144 188.837 136.837 196 128 196H120L104 212V196H88C79.1634 196 72 188.837 72 180V172C72 163.163 79.1634 156 88 156Z" fill="#E6F2F3"></path>
+                            <path d="M112 148C112 139.163 119.163 132 128 132H160C168.837 132 176 139.163 176 148V164C176 172.837 168.837 180 160 180H152L136 196V180H128C119.163 180 112 172.837 112 164V148Z" fill="#007A85" fill-opacity="0.6"></path>
+
+                            <!-- Primary Element: Globe outer circle refined to 10px, inner lines remain 8px -->
+                            <circle cx="176" cy="88" r="40" stroke="#30B32D" stroke-width="10"></circle>
+                            <ellipse cx="176" cy="88" rx="20" ry="40" stroke="#30B32D" stroke-width="8"></ellipse>
+                            <path d="M148 70C160.375 78.6667 191.625 78.6667 204 70" stroke="#30B32D" stroke-width="8" stroke-linecap="round"></path>
+                            <path d="M148 106C160.375 97.3333 191.625 97.3333 204 106" stroke="#30B32D" stroke-width="8" stroke-linecap="round"></path>
+                        </g>
+                    </svg>
