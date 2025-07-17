@@ -1,4 +1,4 @@
-[English](README.md) | [简体中文](/SN-QuickSWL/README.zh-CN.md) | [日本語](/SN-QuickSWL/README.ja.md) | [Français](/SN-QuickSWL/README.fr.md)
+[English](README.md) | [简体中文](/SN-QLS/README.zh-CN.md) | [日本語](/SN-QLS/README.ja.md) | [Français](/SN-QLS/README.fr.md)
 
 # ServiceNow Quick Language Switcher (QLS)
 
