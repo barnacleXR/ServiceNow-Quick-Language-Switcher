@@ -1,6 +1,6 @@
 [English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [Français](README.fr.md)
 
-# ServiceNow Quick Language Switcher (QSL)
+# ServiceNow Quick Language Switcher (QLS)
 
 Une extension de navigateur qui ajoute un bouton à l'en-tête de l'interface utilisateur Polaris de ServiceNow, permettant aux utilisateurs de basculer rapidement entre les langues installées.
 
@@ -38,5 +38,5 @@ L'extension est composée d'un script de contenu qui injecte des éléments d'in
 2.  Ouvrez Google Chrome et accédez à `chrome://extensions/`.
 3.  Activez le "**Mode développeur**" à l'aide de l'interrupteur en haut à droite.
 4.  Cliquez sur le bouton "**Charger l'extension non empaquetée**".
-5.  Sélectionnez le répertoire où vous avez enregistré ces fichiers (`SN-QuickSWL` ou votre dossier de projet).
+5.  Sélectionnez le répertoire où vous avez enregistré ces fichiers (`SN-QLS` ou votre dossier de projet).
 6.  L'extension est maintenant installée et sera active sur les pages ServiceNow.
