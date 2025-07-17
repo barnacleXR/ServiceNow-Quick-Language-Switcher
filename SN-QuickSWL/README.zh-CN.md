@@ -1,6 +1,6 @@
 [English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [Français](README.fr.md)
 
-# ServiceNow 快速语言切换插件 (QSL)
+# ServiceNow 快速语言切换插件 (QLS)
 
 一个浏览器扩展，它在 ServiceNow Polaris UI 的头部添加一个按钮，让用户可以快速切换已安装的语言。
 
@@ -38,5 +38,5 @@
 2.  打开 Google Chrome 浏览器，访问 `chrome://extensions/`。
 3.  打开右上角的“**开发者模式**”开关。
 4.  点击左上角的“**加载已解压的扩展程序**”按钮。
-5.  选择您保存这些文件的文件夹 (`SN-QuickSWL` 或您的项目文件夹)。
+5.  选择您保存这些文件的文件夹 (`SN-QLS` 或您的项目文件夹)。
 6.  扩展程序现已安装完成，并将在 ServiceNow 页面上自动生效。
