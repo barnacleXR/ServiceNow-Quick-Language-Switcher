@@ -39,5 +39,5 @@ The extension is composed of a content script that injects UI elements and a bac
 2.  Open Google Chrome and navigate to `chrome://extensions/`.
 3.  Enable "Developer mode" using the toggle in the top-right corner.
 4.  Click on the "**Load unpacked**" button.
-5.  Select the directory where you saved these files (`SN-QuickSL` or your project folder).
+5.  Select the directory where you saved these files (`SN-QLS` or your project folder).
 6.  The extension is now installed and will be active on ServiceNow pages.
