@@ -17,6 +17,10 @@ Une extension de navigateur qui ajoute un bouton à l'en-tête de l'interface ut
 -   **Détection automatique de la langue**: L'extension récupère automatiquement les langues disponibles depuis votre panneau de préférences ServiceNow.
 -   **Gestion des erreurs**: Fournit un retour clair à l'utilisateur si l'instance ServiceNow n'a pas plusieurs langues activées.
 
+### Motivation
+
+Pour les développeurs ServiceNow travaillant dans un environnement multilingue, changer fréquemment de langue via le profil utilisateur est un processus fastidieux. Bien que des outils comme `sn-utils` offrent une approche par ligne de commande (`/lang <code_langue>`), cela nécessite toujours une saisie manuelle. Cette extension a été créée pour rationaliser ce flux de travail en une solution simple, en un seul clic, éliminant le besoin d'étapes manuelles répétitives.
+
 ### Comment ça marche
 
 L'extension est composée d'un script de contenu qui injecte des éléments d'interface utilisateur et d'un script d'arrière-plan qui gère la logique de base, contournant les limitations du bac à sable (sandbox).
