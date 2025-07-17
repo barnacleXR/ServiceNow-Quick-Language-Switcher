@@ -17,6 +17,10 @@ A browser extension that adds a button to the ServiceNow Polaris UI header, allo
 -   **Automatic Language Detection**: The extension automatically scrapes the available languages from your ServiceNow preferences panel.
 -   **Error Handling**: Provides clear user feedback if the ServiceNow instance does not have multiple languages enabled.
 
+### Motivation
+
+For ServiceNow developers who work in a multi-language environment, frequently switching languages through the user profile is a tedious process. While tools like `sn-utils` offer a command-line approach (`/lang <language_code>`), it still requires manual typing. This extension was created to streamline this workflow into a simple, one-click solution, eliminating the need for repetitive manual steps.
+
 ### How It Works
 
 The extension is composed of a content script that injects UI elements and a background script that handles the core logic, bypassing sandbox limitations.
