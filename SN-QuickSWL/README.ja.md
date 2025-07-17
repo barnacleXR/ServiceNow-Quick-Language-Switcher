@@ -1,6 +1,6 @@
 [English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [Français](README.fr.md)
 
-# ServiceNow クイック言語スイッチャー (QSL)
+# ServiceNow クイック言語スイッチャー (QLS)
 
 ServiceNow Polaris UIヘッダーにボタンを追加し、インストールされている言語を素早く切り替えることができるブラウザ拡張機能です。
 
@@ -38,5 +38,5 @@ ServiceNow Polaris UIヘッダーにボタンを追加し、インストール�
 2.  Google Chromeを開き、`chrome://extensions/` にアクセスします。
 3.  右上隅のトグルスイッチで「**デベロッパーモード**」を有効にします。
 4.  「**パッケージ化されていない拡張機能を読み込む**」ボタンをクリックします。
-5.  これらのファイルを保存したディレクトリ（`SN-QuickSWL` またはプロジェクトフォルダ）を選択します。
+5.  これらのファイルを保存したディレクトリ（`SN-QLS` またはプロジェクトフォルダ）を選択します。
 6.  これで拡張機能がインストールされ、ServiceNowページで有効になります。
